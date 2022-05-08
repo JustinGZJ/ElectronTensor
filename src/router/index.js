@@ -8,7 +8,7 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: ()=> import('../components/TensionChart.vue')
   },
   {
     path: '/about',
