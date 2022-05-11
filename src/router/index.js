@@ -1,14 +1,12 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
     name: 'home',
-    component: ()=> import('../components/TensionChart.vue')
+    component: () => import('../views/TensorsView.vue')
   },
   {
     path: '/about',
