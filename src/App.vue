@@ -118,30 +118,8 @@ export default {
     fab: false,
     items: [
       { icon: 'mdi-home', text: '首页', route: '/' },
-      // {
-      //   icon: 'mdi-chevron-up',
-      //   'icon-alt': 'mdi-chevron-down',
-      //   'icon-ctr': 'mdi-cart-arrow-right',
-      //   text: 'Orders',
-      //   model: false,
-      //   children: [
-      //     { icon: 'style', text: 'Type', route: '/Type' },
-      //     { icon: 'atm', text: 'Mark', route: '/Mark' }
-      //   ]
-      // },
-      // {
-      //   icon: 'mdi-chevron-up',
-      //   'icon-alt': 'mdi-chevron-down',
-      //   'icon-ctr': 'mdi-google-maps',
-      //   text: 'Tracking',
-      //   model: false,
-      //   children: [
-      //     { icon: 'mdi-tooltip-account', text: 'Locate', route: '/locate' },
-      //     { icon: 'mdi-printer', text: 'Print', route: '/print' }
-      //   ]import DeveloperBoardIcon from '@mui/icons-material/DeveloperBoard';
-      // },
       { icon: 'mdi-finance', text: '历史记录', route: '/revenue' },
-      { icon: 'mdi-printer', text: '设备管理', route: '/pinrt' },
+      { icon: 'mdi-printer', text: '设备管理', route: '/device' },
       { icon: 'mdi-chart-line', text: '数据分析', route: '/chart' },
       { icon: 'mdi-google-maps', text: '参数设置', route: '/recherches' }
     ]

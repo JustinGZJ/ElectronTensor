@@ -24,7 +24,7 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn icon class="align-self-start" size="28">
+      <v-btn icon class="align-self-start" @click="goDetail" size="28">
         <v-icon>mdi-arrow-right-thick</v-icon>
       </v-btn>
     </v-card-title>
@@ -59,7 +59,6 @@ export default {
     checking: false,
     tensionvalues: []
   }),
-
   computed: {
     avg () {
       const sum = this.tensionvalues.reduce((acc, cur) => acc + cur, 0)
@@ -87,6 +86,9 @@ export default {
       this.tensionvalues = Array.from({ length: 20 }, this.tensionvalue)
 
       this.checking = false
+    },
+    goDetail () {
+      this.$router.push(`/detail/${this.title}`)
     }
   }
 }

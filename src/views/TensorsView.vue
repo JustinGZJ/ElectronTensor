@@ -31,7 +31,16 @@ export default {
         { name: 'Tensor 6' },
         { name: 'Tensor 7' },
         { name: 'Tensor 8' },
-        { name: 'Tensor 9' }]
+        { name: 'Tensor 9' },
+        { name: 'Tensor 10' },
+        { name: 'Tensor 11' },
+        { name: 'Tensor 12' },
+        { name: 'Tensor 13' },
+        { name: 'Tensor 14' },
+        { name: 'Tensor 15' },
+        { name: 'Tensor 16' },
+        { name: 'Tensor 17' },
+        { name: 'Tensor 18' }]
     }
   }
 }
